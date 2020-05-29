@@ -38,6 +38,7 @@ require __DIR__. "/vendor/autoload.php";
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interesses</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certificações</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">TestePHP</a></li>
                 </ul>
             </div>
         </nav>
