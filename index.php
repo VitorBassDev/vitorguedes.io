@@ -1,5 +1,7 @@
 <?php
 require __DIR__. "/vendor/autoload.php";
+?>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -217,4 +219,4 @@ require __DIR__. "/vendor/autoload.php";
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
-</html>
+</html> 
