@@ -7,14 +7,17 @@
     <meta name="author" content="" />
       <title>Perfil - Vítor Guedes</title>
 				
-			<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+	    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
       <!-- Font Awesome icons (free version)-->
       <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
       <!-- Google fonts-->
       <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
       <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
       <!-- Core theme CSS (includes Bootstrap)-->
+      <link href="css/login.css" rel="stylesheet">
       <link href="css/styles.css" rel="stylesheet" />
+      <link href="assets/bootstrap/css/bootstrap-grid.min.css" >
+      
 	</head>
 	
 	<body id="page-top">
@@ -40,7 +43,63 @@
           </ul>
         </div>
 				
-			</nav>
+    </nav>
+    
+	 	<!-- Login-->
+		 <div class="container nav justify-content-end mr-1">
+			 <div class="row">
+				<div class="btn-login mt-5" id=""> 
+          <button type="button" 
+                  class="btn btn-outline-primary"
+                  data-toggle="modal" 
+                  data-target="#abrirModal">Logar
+                </button>
+				</div>
+			 </div>
+     </div>
+     
+     <!-- Modal CONTENT-->
+    <div class="modal fade" 
+         id="abrirModal" 
+         tabindex="-1" 
+         role="dialog" 
+         aria-labelledby="exampleModalLongTitle" 
+         aria-hidden="true">
+
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          
+          <div class="modal-body">
+            <div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30"></div>
+            <form class="login100-form validate-form" method="POST">
+              <span class="text-primary configLogin mb-5 mt-3">
+                Realizar Login
+              </span>
+      
+              <div class="wrap-input100 validate-input m-b-20 text-primary data-validate="Enter username or email">
+                <input class="input100" type="text" name="username" placeholder="username or email">
+                <span class="focus-input100"></span>
+              </div>
+      
+              <div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
+                <input class="input100" type="password" name="pass" placeholder="password">
+                <span class="focus-input100"></span>
+              </div>
+      
+              <div class="container-login100-form-btn">
+                <button class="btn-outline-primary login100-form-btn">
+                  Sign In
+                </button>
+              </div>
+              
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    </div>		 
         <!-- Page Content-->
         <div class="container-fluid p-0">
 				<!-- About-->
@@ -200,6 +259,7 @@
             </section>
         </div>
         <!-- Bootstrap core JS-->
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
