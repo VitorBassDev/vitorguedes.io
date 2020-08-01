@@ -22,7 +22,14 @@ Aqui estão as tecnologias utilizadas neste projeto
 ## How to Use
 
 ### 1 - Pagina de Apresentação.
-![login Screen] (https://github.com/VitorBassDev/vitorguedes.io/blob/master/portifolio_readme_images/01readme_images.png)
+![Login Screen] (https://github.com/VitorBassDev/vitorguedes.io/blob/master/portifolio_readme_images/01readme_images.png)
+
+
+### 2 - Teste 02
+![New Card Screen] (https://github.com/VitorBassDev/vitorguedes.io/blob/master/portifolio_readme_images/02readme_images.png)
+
+### 3 - Teste 01
+![Home Screen] (https://github.com/VitorBassDev/vitorguedes.io/blob/master/portifolio_readme_images/logoPortifolio.png)
  
 ## Versioning
  
