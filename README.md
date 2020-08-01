@@ -1,4 +1,4 @@
-![Logo of the project](http://logo_link)
+![Logo of the project](https://github.com/VitorBassDev/vitorguedes.io/blob/master/portifolio_readme_images/logoPortifolio.png)
  
 ## Name_of_the_project
  
@@ -9,8 +9,9 @@
  
 Here are the technologies used in this project.
  
-* Ruby version  x.x.x
-* Rails version x.x.x
+* PHP version  x.x.x
+* COMPOSER version x.x.x
+* BOOSTRAP version x.x.x
 * ...
  
  
