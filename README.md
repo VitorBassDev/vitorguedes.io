@@ -22,7 +22,7 @@ Aqui estão as tecnologias utilizadas neste projeto
 ## How to Use
 
 ### 1 - Pagina de Apresentação.
-![login Screen] (https://github.com/VitorBassDev/vitorguedes.io/blob/master/portifolio_readme_images/01readme_images.PNG)
+![login Screen] (https://github.com/VitorBassDev/vitorguedes.io/blob/master/portifolio_readme_images/01readme_images.png)
  
 ## Versioning
  
